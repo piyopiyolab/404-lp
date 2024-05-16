@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply font-openSans;
+    }
+}
+
+@layer utilities {
+    .img-bg {
+        background-image: url(./form.svg);
+        background-size: cover;
+        height: 100svb;
+        width: 50%;
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+    }
+
+    .container-c {
+        max-width: 104rem;
+        margin: 0 auto;
+      
+    }
+}
